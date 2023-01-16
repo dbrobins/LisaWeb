@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+    <html lang="en">
+    <!-- create head section -->
+    <head>
+        <!--create title for website-->
+        <title> URL</title>
+        <!--Add code to load website according to desktop, mobile or laptop acces from user-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <!--Link css stylesheet-->
+        <link rel="stylesheet" href="../shuttle/css/style.css" media="screen">
+        <script src="scripts/url.js"></script>
+    
+    </head>
+            <title>
+                Split URL
+            </title>
+        </head>
+          
+        <body>
+            <h1 style="color: rgb(184, 139, 139)">
+                Lisa Lewis
+            </h1>
+            <label for="id-url">
+                Please enter the url:
+            </label>
+
+            <input id="url"
+                   type="text"
+                   name="url"
+                   size="30" required>
+              
+            <button onclick="getDetails()">
+                Get protocol, domain, port
+            </button>
+            <p><b>Output: </b><span id="result"></span></p>
+        </body>
+          
+        </html>          
+</body>
