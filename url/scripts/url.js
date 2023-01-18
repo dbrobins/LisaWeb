@@ -15,5 +15,5 @@ function breakAddress(url)
 
 function getDetails()
 {
-    alert("getDetails called");
+    document.getElementById("result").innerText = breakAddress(document.getElementById("url").value);
 }
